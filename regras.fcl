@@ -103,13 +103,13 @@ RULEBLOCK No1
     RULE 13: IF Velocidade IS normal AND Distancia IS longe 
                THEN pressaodofreio IS nenhuma;
  
-    RULE 6: IF Velocidade IS rapida AND Distancia IS habitual 
+    RULE 14: IF Velocidade IS rapida AND Distancia IS habitual 
                THEN pressaodofreio IS normal;
 
-    RULE 7: IF Velocidade IS rapida AND Distancia IS proxima 
+    RULE 15: IF Velocidade IS rapida AND Distancia IS proxima 
                THEN pressaodofreio IS forte;
  
-    RULE 8: IF Velocidade IS rapida AND Distancia IS muitoproxima 
+    RULE 16: IF Velocidade IS rapida AND Distancia IS muitoproxima 
                THEN pressaodofreio IS forte;
        
 END_RULEBLOCK
